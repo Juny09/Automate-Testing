@@ -4,7 +4,7 @@ async function TestCase3() {
   // launch the browser
   let driver = await new Builder().forBrowser("chrome").build();
   try {
-    //navigate to facebook login page
+    //navigate to xe login page
     await driver.get("https://www.xe.com/");
 
     //click to the convert page
